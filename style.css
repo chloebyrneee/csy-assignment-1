@@ -1,0 +1,172 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+
+
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+ 
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+  background-color: #cfcfd1;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+nav {
+  background-color: black;
+  padding: 15px;
+  margin: 0px;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid
+    #aaa;
+  padding: 0 20px
+}
+
+li: last-child {
+  border-right: none;
+}
+a {
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1, sans-serif;
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+li a:hover {
+  color: #777;
+}
+
+li.active a {
+  font-weight: bold;
+  color: #777;
+}
+
+
+
+section
+{
+  background: black;
+  padding: 10px;
+  margin: -5px;
+  text-align: center;
+}
+article {
+  margin: -6px;
+  text-align: center;
+  
+}
+h2 { 
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+}
+dl {
+  text-align: center;
+  
+}
+dt {
+ 
+  font-weight: bolder;
+}
+
+.chloe{
+  border-radius: 300px;
+}
+.kathryn {
+  border-radius: 300px;
+  
+}
+.chlo {
+  float: right;
+  position: relative;
+}
+
+.background {
+  width: 100%;
+  
+  
+}
+.firstTerm {
+  border-radius: 100px;
+  
+}
+.myTerm
+{
+  text-align: center;
+  margin: 20px;
+}
+
+
+footer {
+  background-color: black;
+  padding: 10px;
+  margin-left; 0px;
+  position: absolute;
+  width: 100%;
+  
+}
+.job1
+{
+  float: left;
+  max-width:45%;
+ 
+}
+.job2 {
+  float: right;
+  max-width: 45%;
+  
+ 
+}
+
+.headerJob1 {
+  float: left;
+  width: 50%
+}
+.headerJob2 { 
+  float: right;
+  width: 50%
+  
+ 
+}
+.choices {
+  text-align: center;
+}
+
+iframe {
+
+  width: 50%;
+  max-width: 50%;
+  float: left;
+    
+}
+.practice {
+  text-align: center;
+  background: #cfcfd1;
+}
+
